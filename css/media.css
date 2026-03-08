@@ -30,9 +30,7 @@
 }
 
 @media(min-width: 767px) {
-    .tip-item--text{
-        max-width: 301px;
-    }
+
 
 }
 
@@ -109,52 +107,27 @@
     .hero {
         background-image:url("../img/header.webp");
     }
-    .section-blue{
-        margin-bottom: 35px;
-    }
     .nav-list--link {
         line-height: 19px;
     }
     .section-1{
-        padding: 104px 0 210px;
+        padding: 104px 0 80px;
     }
     .image-section-2{
-        margin-bottom: 35px;
-        margin-top: -484px;
+
     }
     .section-2{
-        padding: 210px 0 266px;
+
     }
     .section-3{
-       padding: 0 0 206px;
+        margin-top: -157px;
+        padding-bottom: 80px;
+        padding-top: 0;
     }
     .section-4{
-       padding: 0 0 470px;
+
     }
-    .section-5{
-       padding: 0 0 195px;
-    }
-    .section-6{
-       padding: 0 0 181px;
-    }
-    .section-7{
-       padding: 0 0 150px;
-    }
-    .image-section-3{
-        margin-top: -258px;
-    }
-    .image-section-4{
-        margin-top: -205px;
-    }
-    .image-section-5{
-        margin-top: -460px;
-    }
-    .image-section-6{
-        margin-top: -158px;
-    }
-    .image-section-7{
-        margin-top: -213px;
-    }
+
 }
 
 @media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dppx) {
