@@ -55,6 +55,11 @@
         font-weight: 700;
         line-height: normal;
     }
+    .islands{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
 
 }
 @media (max-width: 1200px) {
@@ -105,27 +110,46 @@
         max-width: 900px;
     }
     .hero {
-        background-image:url("../img/header.webp");
+        background-image:url("../img/tui-insel-ranking-2026.jpg");
     }
     .nav-list--link {
         line-height: 19px;
     }
+    .section{
+        padding: 80px 0;
+    }
     .section-1{
         padding: 104px 0 80px;
-    }
-    .image-section-2{
-
-    }
-    .section-2{
-
     }
     .section-3{
         margin-top: -157px;
         padding-bottom: 80px;
         padding-top: 0;
     }
-    .section-4{
+    .image-section-2{
+        margin-bottom: 70px;
+    }
+    .section-5{
+        padding-bottom:0;
+    }
 
+    .image-section-5, .image-section-6{
+        margin-bottom: -70px;
+    }
+    .section-6, .section-7 {
+        padding: 147px 0 0;
+    }
+    .section-8{
+        padding: 147px 0 159px;
+    }
+    .section-9{
+        padding: 0 0 80px;
+    }
+    .image-section-9{
+       margin-top: -83px;
+    }
+    .section-bottom{
+        padding: 150px 0 68px;
     }
 
 }
