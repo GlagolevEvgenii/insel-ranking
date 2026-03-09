@@ -505,6 +505,7 @@ strong {
 }
 .section-3{
     background:linear-gradient(180deg, rgba(193, 233, 255, 0.00) 0%, #C1E9FF 14.9%);
+    margin-top: -157px;
 }
 .image-section-2{
     margin-bottom: 40px;
@@ -518,7 +519,7 @@ strong {
 .islands{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
 .island-item{
     display: flex;
