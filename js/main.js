@@ -7,7 +7,7 @@ const embedEngine = {
         document.querySelectorAll(".embed-button").forEach((e) => {
             e.addEventListener("click", embedEngine.embedBox);
         });
-
+        let scrollToTopBtn = document.querySelector(".scrollup");
         const menuBtnRef = document.querySelector("[data-menu-button]");
         const mobileMenuRef = document.querySelector("[data-menu]");
         const expanded =
@@ -53,8 +53,10 @@ const embedEngine = {
                 document.documentElement.scrollTop > 466
             ) {
                 document.querySelector(".nav").classList.add("nav--sticky");
+                scrollToTopBtn.classList.add("showBtn");
             } else {
                 document.querySelector(".nav").classList.remove("nav--sticky");
+                scrollToTopBtn.classList.remove("showBtn");
             }
         }
     },

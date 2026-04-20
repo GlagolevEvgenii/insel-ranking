@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Ambit-Bold';
+    src: url('/fonts/Ambit-Bold.woff2') format('woff2'),
+    url('/fonts/Ambit-Bold.woff') format('woff');
+    font-display: swap;
+}
+
 .mobile-menu {
     display: none;
     position: fixed;
@@ -227,6 +234,7 @@
     line-height: 1.1;
     margin-bottom: 33px;
     scroll-margin-top: 80px;
+    font-family: 'Ambit-Bold';
 }
 .section-subtitle {
     color: #1B115C;
@@ -313,6 +321,7 @@ strong {
     letter-spacing: 1px;
     line-height: 1.1;
     color: #fff;
+    font-family: 'Ambit-Bold';
 }
 .hero-title span {
     font-size: 24px;
@@ -330,11 +339,6 @@ strong {
     color: #fff;
     -webkit-transition: all 250ms ease-in-out;
     transition: all 250ms ease-in-out
-}
-
-.nav--sticky {
-    background-color: #e2f3fe;
-    color: #092a5e
 }
 
 .nav-list {
@@ -492,6 +496,7 @@ strong {
     align-items: center;
     gap:30px;
     cursor: pointer;
+    font-family: 'Ambit-Bold';
 }
 .btn.active  svg{
     transform: rotate(180deg);
@@ -555,6 +560,42 @@ strong {
     display: flex;
     align-items: center;
     font-weight: 400;
+}
+.scrollup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    border-radius: 50%;
+    -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: rgba(0,0,0,0);
+    width: 45px;
+    height: 45px;
+    bottom: 140px;
+    right: 20px;
+    z-index: 3000000000;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    -webkit-transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.scrollup:hover,.scrollup:focus {
+    background-color: rgba(54,129,215,.203)
+}
+
+.showBtn {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    pointer-events: initial;
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0,0,0,.26);
+    box-shadow: 4px 3px 5px 0px rgba(0,0,0,.26)
 }
 
 
